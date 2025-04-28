@@ -3,5 +3,13 @@ git init  -> inicializou o repositorio (a partir deste momento estou utilizando 
 git add README.md  -> vai versioar o readme
 git add .  -> vai adicionar os arquivos para serem versionados pelo git
 git commit -m "mensagem com as mudanças implementas" 
+git btanch -M main -> muda o nome da branch
+git add origin https://...  -> adicionar o repositório remoto e fazer com que ele sincronize com oseu repositório local
+git push -u origin main -> enviar as alterações para o repositório criado anteriormente
 
 ...
+
+Depois que o repositório estiver configurado os comandos padrões serão:
+git add . ou 'nome do arquivo'
+git commit -m 'explicação das mudanças'
+git push 
